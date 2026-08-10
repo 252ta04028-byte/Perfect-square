@@ -1,2 +1,8 @@
-# Perfect-square
-This program checks whether the given number is a Perfect Square or not. A perfect square is a number that can be written as the product of an integer by itself.
+import math
+
+n = int(input("Enter a number: "))
+
+if math.isqrt(n) ** 2 == n:
+    print("Perfect Square")
+else:
+    print("Not a Perfect Square")
